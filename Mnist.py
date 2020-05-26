@@ -43,8 +43,7 @@ model.summary()
 test_loss, test_acc = model.evaluate(test_X, test_Y_one_hot)
 print('Test loss', test_loss)
 print('Test accuracy', test_acc)
-predictions = model.predict(test_X)
-print(np.argmax(np.round(predictions[i])))
+
 
 
 
